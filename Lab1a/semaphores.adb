@@ -14,4 +14,3 @@ package body Semaphores is
       end Signal;
    end CountingSemaphore;
 end Semaphores;
-

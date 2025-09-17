@@ -36,8 +36,7 @@ procedure ProducerConsumer_Rndzvs is
       loop
          select
 		      when Integer(Count)+1 < Size =>               
-               accept Append(I : in Integer)  do	-- => Complete Code: Service Append
-
+               accept Append(I : in Integer) do	   -- => Complete Code: Service Append
 			         B(In_Ptr) := I;
          		   In_Ptr    := In_Ptr + 1;
          		   Count     := Count + 1;
@@ -46,13 +45,12 @@ procedure ProducerConsumer_Rndzvs is
 		      end Append;
          or
             when Integer(Count) > 0 =>
-		         accept Take(I : out Integer)  do		-- => Complete Code: Service Take
+		         accept Take(I : out Integer) do		-- => Complete Code: Service Take
 			         I       := B(Out_Ptr);
         		      Out_Ptr := Out_Ptr + 1;
                   Count   := Count - 1;
                   Put_Line("Take:   " &I'Img);
                   Put_Line("Count:  " &Count'Img);
-                  
 		         end Take;
          or
 		      terminate;                             -- => Termination
@@ -96,5 +94,3 @@ procedure ProducerConsumer_Rndzvs is
 begin -- main task
    null;
 end ProducerConsumer_Rndzvs;
-
-

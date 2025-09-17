@@ -92,5 +92,3 @@ procedure ProducerConsumer_Sem is
 begin -- main task
    null;
 end ProducerConsumer_Sem;
-
-
