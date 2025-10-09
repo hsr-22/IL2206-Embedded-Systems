@@ -1,0 +1,29 @@
+harsh@HSR-SpectreX360:~/IL2206$ sudo taskset -c 0 ./rms
+[sudo] password for harsh:
+Task 1- Release:  0.100, Completion:  0.201, Response: 0.101, WCRT: 0.101, Next Release:  0.400
+Task 2- Release:  0.100, Completion:  0.286, Response: 0.186, WCRT: 0.186, Next Release:  0.500
+Task 3- Release:  0.100, Completion:  0.372, Response: 0.272, WCRT: 0.272, Next Release:  0.700
+Task 1- Release:  0.400, Completion:  0.494, Response: 0.094, WCRT: 0.101, Next Release:  0.700
+Task 2- Release:  0.500, Completion:  0.586, Response: 0.086, WCRT: 0.186, Next Release:  0.900
+Task 1- Release:  0.700, Completion:  0.801, Response: 0.101, WCRT: 0.101, Next Release:  1.000
+Task 3- Release:  0.700, Completion:  0.885, Response: 0.185, WCRT: 0.272, Next Release:  1.300
+Task 2- Release:  0.900, Completion:  0.991, Response: 0.091, WCRT: 0.186, Next Release:  1.300
+Task 1- Release:  1.000, Completion:  1.089, Response: 0.089, WCRT: 0.101, Next Release:  1.300
+Task 1- Release:  1.300, Completion:  1.399, Response: 0.099, WCRT: 0.101, Next Release:  1.600
+Task 2- Release:  1.300, Completion:  1.485, Response: 0.185, WCRT: 0.186, Next Release:  1.700
+Task 3- Release:  1.300, Completion:  1.570, Response: 0.270, WCRT: 0.272, Next Release:  1.900
+Task 1- Release:  1.600, Completion:  1.697, Response: 0.097, WCRT: 0.101, Next Release:  1.900
+Task 2- Release:  1.700, Completion:  1.785, Response: 0.085, WCRT: 0.186, Next Release:  2.100
+Task 1- Release:  1.900, Completion:  1.997, Response: 0.097, WCRT: 0.101, Next Release:  2.200
+Task 3- Release:  1.900, Completion:  2.083, Response: 0.183, WCRT: 0.272, Next Release:  2.500
+Task 2- Release:  2.100, Completion:  2.185, Response: 0.085, WCRT: 0.186, Next Release:  2.500
+Task 1- Release:  2.200, Completion:  2.288, Response: 0.088, WCRT: 0.101, Next Release:  2.500
+Task 1- Release:  2.500, Completion:  2.604, Response: 0.104, WCRT: 0.104, Next Release:  2.800
+Task 2- Release:  2.500, Completion:  2.689, Response: 0.189, WCRT: 0.189, Next Release:  2.900
+Task 3- Release:  2.500, Completion:  2.774, Response: 0.274, WCRT: 0.274, Next Release:  3.100
+Task 1- Release:  2.800, Completion:  2.895, Response: 0.095, WCRT: 0.104, Next Release:  3.100
+Task 2- Release:  2.900, Completion:  2.987, Response: 0.086, WCRT: 0.189, Next Release:  3.300
+Task 1- Release:  3.100, Completion:  3.205, Response: 0.105, WCRT: 0.105, Next Release:  3.400
+Task 3- Release:  3.100, Completion:  3.295, Response: 0.195, WCRT: 0.274, Next Release:  3.700
+Task 2- Release:  3.300, Completion:  3.384, Response: 0.084, WCRT: 0.189, Next Release:  3.700
+Task 1- Release:  3.400, Completion:  3.493, Response: 0.093, WCRT: 0.105, Next Release:  3.700
